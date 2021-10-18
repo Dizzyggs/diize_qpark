@@ -1,6 +1,6 @@
-fx_version 'bodacious'
+fx_version 'cerulean'
 
-game 'gta5'
+games 'gta5'
 
 author 'Diize'
 
@@ -8,14 +8,14 @@ dependencies {
   "zf_dialog"
 }
 
-client_script {
+client_scripts {
   'client.lua',
   'config.lua'
 
 }
 
-server_script {
+server_scripts {
   '@mysql-async/lib/MySQL.lua',
-     'config.lua',
-     'server.lua'
+  'config.lua',
+  'server.lua'
  }
