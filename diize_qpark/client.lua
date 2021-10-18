@@ -62,7 +62,7 @@ Citizen.CreateThread(function() -- Writing ticket animation.
 	while true do 
 		Citizen.Wait(0)
 		if inTicketMission then
-			local ped = GetPlayerPed(-1)
+			local ped = PlayerPedId()
     TaskStartScenarioInPlace(ped, "CODE_HUMAN_MEDIC_TIME_OF_DEATH", -5, false)
 	
 end
@@ -72,7 +72,7 @@ end)
 Citizen.CreateThread(function() -- In order to cancel anim, press X.
 	while true do
 	Citizen.Wait(0)
-	local ped = GetPlayerPed(-1)
+	local ped = PlayerPedId()
 	if inTicketMission and ( IsControlJustPressed( 1, 105 ) ) then
 		ClearPedTasks(ped)
     ClearPedSecondaryTask(ped)
