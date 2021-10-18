@@ -1,20 +1,20 @@
 Config = {}
 
 ----------------------------------------------------
---DIIZE_QPARK -- DISCORD: DIIZE#9502 FOR ASSISTANCE
+-- DIIZE_QPARK -- DISCORD: DIIZE#9502 FOR ASSISTANCE
 -----------------------------------------------------
 Config.RequiredJob = "qpark"
 ----------------------------------------------------
---Choose your notification system below.
+-- Choose your notification system below.
 -----------------------------------------------------
-Config.Notifications = "mythic" --What Notification System are you using?
---[Options: okok, mythic, default] 
+Config.Notifications = "okok" -- What Notification System are you using?
+-- [Options: okok, mythic, default] 
 Config.okokB = true -- bill system setup! true for okokBilling, false for esx_billing. 
 
 -----------------------LOCALES-----------------------
 -----------------------------------------------------
-Config.HeaderText = "🎫Write A Ticket" 
-Config.RegPlateText = "🚗Registration Plate" 
+Config.HeaderText = "🎫Write A Ticket"
+Config.RegPlateText = "🚗Registration Plate"
 Config.Notes = "🖊️Notes"
 Config.billAmount = "💸Price"
 Config.InvalidInputs = "Make sure both inputs are valid."
